@@ -1,0 +1,19 @@
+Deve ter pré-instalado globalmente: npm install -g nodemon typescript ts-node
+
+npm init
+tsc --init
+npm install express mustache-express dotenv
+npm install --save-dev @types/express @types/mustache-express @types/node
+
+npm install jsonwebtoken
+npm install -D @types/jsonwebtoken
+npm install passport
+npm install -D @types/passport
+npm install passport-jwt
+npm install -D @types/passport-jwt
+
+npm install cors
+npm install -D @types/cors
+
+npm install mysql2 sequelize validator
+npm install -D @types/sequelize @types/validator
